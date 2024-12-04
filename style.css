@@ -1,0 +1,264 @@
+@charset "utf-8";
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Yu Gothic";
+    background-image: url("images/background2.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: "a""b""c";
+    grid-template-columns: 1fr;
+    grid-template-rows: 9rem 1fr 40rem
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.number {
+    font-size: 5rem;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.siteHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btk {
+    letter-spacing: 0.5rem;
+    font-size: 7rem;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.from {
+    font-size: 3rem;
+    font-family: "Playwrite CU", serif;
+    color: #882426;
+}
+
+.bftk {
+    line-height: 0rem;
+    text-align: center;
+    padding-left: 5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    justify-content: left;
+}
+
+.right {
+    justify-content: right;
+}
+
+.subtitle {
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.author {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.thank {
+    font-size: 4rem;
+    font-family: "Playwrite DK Uloopet";
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+}
+
+.bookrack {
+    display: flex;
+    justify-content: center;
+}
+
+.uec {
+    padding-right: 1rem;
+}
+
+.jb {
+    font-size: 1.2rem;
+}
+
+header {
+    grid-area: a;
+    background-color: #cdbea7;
+    padding: 0rem;
+    padding-left: 2rem;
+    color: #323030
+}
+
+section {
+    grid-area: b;
+    padding: 1rem;
+    color: #323030
+}
+
+footer {
+    grid-area: c;
+    background-color: #323030;
+    padding: 1rem;
+    padding-left: 3rem;
+    color: #ffffff;
+    height: fit-content;
+}
+
+.fourcolumn {
+    column-count: 4;
+}
+
+address {
+    text-align: right
+}
+
+.bookcover {
+    width: 12cm;
+    margin: auto;
+    box-shadow: 10px 10px 25px 0 rgba(59, 59, 59, 0.5);
+}
+
+.text {
+    width: 15cm;
+    margin-left: 5em;
+}
+
+.textbox {
+    background-color: #cdbea7;
+    border-color: #cdbea7;
+}
+
+.maintex {
+    font-size: 1.5rem;
+    font-family: "Yu Gothic";
+    margin: 0.5cm;
+}
+
+.sighn {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-right: 0.5cm;
+}
+
+.relative {
+    position: relative;
+}
+
+.book1 {
+    position: absolute;
+    bottom: 38px;
+    left: 150px;
+    width: 188px;
+    height: 260px;
+}
+
+.book2 {
+    position: absolute;
+    bottom: 38px;
+    left: 800px;
+    width: 188px;
+    height: 260px;
+}
+
+.book3 {
+    position: absolute;
+    bottom: 330px;
+    left: 100px;
+    width: 188px;
+    height: 260px;
+}
+
+.book4 {
+    position: absolute;
+    bottom: 330px;
+    left: 340px;
+    width: 188;
+    width: 188px;
+    height: 260px;
+}
+
+.book5 {
+    position: absolute;
+    bottom: 330px;
+    left: 790px;
+    width: 188px;
+    height: 260px;
+}
+
+.book6 {
+    position: absolute;
+    bottom: 807px;
+    left: 120px;
+    width: 188px;
+    height: 260px;
+}
+
+.book7 {
+    position: absolute;
+    bottom: 807px;
+    left: 345px;
+    width: 188px;
+    height: 260px;
+}
+
+.book8 {
+    position: absolute;
+    bottom: 860px;
+    left: 768px;
+    width: 140px;
+    height: 200px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.black {
+    background-color: black;
+}
+
+.button img {
+    display: block;
+}
+
+.cover {
+    box-shadow: 10px -3px 15px 0 rgba(0, 0, 0, 1.0), -10px -3px 15px 0 rgba(0, 0, 0, 1.0);
+}
+
+.fit {
+    height: fit-content;
+}
+
+
+/*担当：若林・長谷川*/
